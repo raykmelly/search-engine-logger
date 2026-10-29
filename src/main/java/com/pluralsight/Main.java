@@ -36,6 +36,7 @@ public class Main {
                     break;
                 default:
                     // User error, invalid command
+                    System.out.println("-> Error: invalid command, must be (a,b or c)\n");
                     break;
             }
         }
